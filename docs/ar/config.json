@@ -1,0 +1,233 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TanStack/tanstack.com/main/tanstack-docs-config.schema.json",
+  "docSearch": {
+    "appId": "",
+    "apiKey": "",
+    "indexName": "tanstack-store"
+  },
+  "sections": [
+    {
+      "label": "البدء",
+      "children": [
+        {
+          "label": "نظرة عامة",
+          "to": "overview"
+        },
+        {
+          "label": "التثبيت",
+          "to": "installation"
+        },
+        {
+          "label": "بدء سريع",
+          "to": "quick-start"
+        }
+      ],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "بدء سريع",
+              "to": "framework/react/quick-start"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "بدء سريع",
+              "to": "framework/vue/quick-start"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "بدء سريع",
+              "to": "framework/solid/quick-start"
+            }
+          ]
+        },
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "بدء سريع",
+              "to": "framework/angular/quick-start"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "بدء سريع",
+              "to": "framework/svelte/quick-start"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "مرجع API",
+      "children": [
+        {
+          "label": "مرجع JavaScript",
+          "to": "reference/index"
+        },
+        {
+          "label": "الفئات / المتجر (Store)",
+          "to": "reference/classes/store"
+        },
+        {
+          "label": "الفئات / المشتقة (Derived)",
+          "to": "reference/classes/derived"
+        },
+        {
+          "label": "الفئات / التأثير (Effect)",
+          "to": "reference/classes/effect"
+        },
+        {
+          "label": "واجهات / خيارات المتجر (StoreOptions)",
+          "to": "reference/interfaces/storeoptions"
+        },
+        {
+          "label": "واجهات / خيارات المشتقة (DerivedOptions)",
+          "to": "reference/interfaces/derivedoptions"
+        }
+      ],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "مرجع React",
+              "to": "framework/react/reference/index"
+            },
+            {
+              "label": "وظائف / useStore",
+              "to": "framework/react/reference/functions/usestore"
+            },
+            {
+              "label": "وظائف / سطحية (shallow)",
+              "to": "framework/react/reference/functions/shallow"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "مرجع Vue",
+              "to": "framework/vue/reference/index"
+            },
+            {
+              "label": "وظائف / useStore",
+              "to": "framework/vue/reference/functions/usestore"
+            },
+            {
+              "label": "وظائف / سطحية (shallow)",
+              "to": "framework/vue/reference/functions/shallow"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "مرجع Solid",
+              "to": "framework/solid/reference/index"
+            },
+            {
+              "label": "وظائف / useStore",
+              "to": "framework/solid/reference/functions/usestore"
+            }
+          ]
+        },
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "مرجع Angular",
+              "to": "framework/angular/reference/index"
+            },
+            {
+              "label": "وظائف / injectStore",
+              "to": "framework/angular/reference/functions/functionsinjectStore"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "مرجع Svelte",
+              "to": "framework/svelte/reference/index"
+            },
+            {
+              "label": "وظائف / useStore",
+              "to": "framework/svelte/reference/functions/usestore"
+            },
+            {
+              "label": "وظائف / سطحية (shallow)",
+              "to": "framework/svelte/reference/functions/shallow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "أمثلة",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "بسيط",
+              "to": "framework/react/examples/simple"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "بسيط",
+              "to": "framework/vue/examples/simple"
+            }
+          ]
+        },
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "بسيط",
+              "to": "framework/angular/examples/simple"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "بسيط",
+              "to": "framework/svelte/examples/simple"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "بسيط",
+              "to": "framework/solid/examples/simple"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
