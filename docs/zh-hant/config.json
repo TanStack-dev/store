@@ -1,0 +1,233 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TanStack/tanstack.com/main/tanstack-docs-config.schema.json",
+  "docSearch": {
+    "appId": "",
+    "apiKey": "",
+    "indexName": "tanstack-store"
+  },
+  "sections": [
+    {
+      "label": "開始使用",
+      "children": [
+        {
+          "label": "概述",
+          "to": "overview"
+        },
+        {
+          "label": "安裝",
+          "to": "installation"
+        },
+        {
+          "label": "快速開始",
+          "to": "quick-start"
+        }
+      ],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "快速開始 (React)",
+              "to": "framework/react/quick-start"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "快速開始 (Vue)",
+              "to": "framework/vue/quick-start"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "快速開始 (Solid)",
+              "to": "framework/solid/quick-start"
+            }
+          ]
+        },
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "快速開始 (Angular)",
+              "to": "framework/angular/quick-start"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "快速開始 (Svelte)",
+              "to": "framework/svelte/quick-start"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "API 參考",
+      "children": [
+        {
+          "label": "JavaScript 參考",
+          "to": "reference/index"
+        },
+        {
+          "label": "類別 / Store",
+          "to": "reference/classes/store"
+        },
+        {
+          "label": "類別 / Derived",
+          "to": "reference/classes/derived"
+        },
+        {
+          "label": "類別 / Effect",
+          "to": "reference/classes/effect"
+        },
+        {
+          "label": "介面 / StoreOptions",
+          "to": "reference/interfaces/storeoptions"
+        },
+        {
+          "label": "介面 / DerivedOptions",
+          "to": "reference/interfaces/derivedoptions"
+        }
+      ],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "React 參考",
+              "to": "framework/react/reference/index"
+            },
+            {
+              "label": "函式 / useStore",
+              "to": "framework/react/reference/functions/usestore"
+            },
+            {
+              "label": "函式 / shallow",
+              "to": "framework/react/reference/functions/shallow"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "Vue 參考",
+              "to": "framework/vue/reference/index"
+            },
+            {
+              "label": "函式 / useStore",
+              "to": "framework/vue/reference/functions/usestore"
+            },
+            {
+              "label": "函式 / shallow",
+              "to": "framework/vue/reference/functions/shallow"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "Solid 參考",
+              "to": "framework/solid/reference/index"
+            },
+            {
+              "label": "函式 / useStore",
+              "to": "framework/solid/reference/functions/usestore"
+            }
+          ]
+        },
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "Angular 參考",
+              "to": "framework/angular/reference/index"
+            },
+            {
+              "label": "函式 / injectStore",
+              "to": "framework/angular/reference/functions/functionsinjectStore"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "Svelte 參考",
+              "to": "framework/svelte/reference/index"
+            },
+            {
+              "label": "函式 / useStore",
+              "to": "framework/svelte/reference/functions/usestore"
+            },
+            {
+              "label": "函式 / shallow",
+              "to": "framework/svelte/reference/functions/shallow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "範例",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "簡單範例 (React)",
+              "to": "framework/react/examples/simple"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "簡單範例 (Vue)",
+              "to": "framework/vue/examples/simple"
+            }
+          ]
+        },
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "簡單範例 (Angular)",
+              "to": "framework/angular/examples/simple"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "簡單範例 (Svelte)",
+              "to": "framework/svelte/examples/simple"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "簡單範例 (Solid)",
+              "to": "framework/solid/examples/simple"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
