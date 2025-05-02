@@ -1,0 +1,233 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TanStack/tanstack.com/main/tanstack-docs-config.schema.json",
+  "docSearch": {
+    "appId": "",
+    "apiKey": "",
+    "indexName": "tanstack-store"
+  },
+  "sections": [
+    {
+      "label": "Начало работы",
+      "children": [
+        {
+          "label": "Обзор",
+          "to": "overview"
+        },
+        {
+          "label": "Установка",
+          "to": "installation"
+        },
+        {
+          "label": "Быстрый старт",
+          "to": "quick-start"
+        }
+      ],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "Быстрый старт",
+              "to": "framework/react/quick-start"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "Быстрый старт",
+              "to": "framework/vue/quick-start"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "Быстрый старт",
+              "to": "framework/solid/quick-start"
+            }
+          ]
+        },
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "Быстрый старт",
+              "to": "framework/angular/quick-start"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "Быстрый старт",
+              "to": "framework/svelte/quick-start"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Справочник API",
+      "children": [
+        {
+          "label": "Справочник JavaScript",
+          "to": "reference/index"
+        },
+        {
+          "label": "Классы / Хранилище (Store)",
+          "to": "reference/classes/store"
+        },
+        {
+          "label": "Классы / Производные (Derived)",
+          "to": "reference/classes/derived"
+        },
+        {
+          "label": "Классы / Эффект (Effect)",
+          "to": "reference/classes/effect"
+        },
+        {
+          "label": "Интерфейсы / Параметры хранилища (StoreOptions)",
+          "to": "reference/interfaces/storeoptions"
+        },
+        {
+          "label": "Интерфейсы / Параметры производных (DerivedOptions)",
+          "to": "reference/interfaces/derivedoptions"
+        }
+      ],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "Справочник React",
+              "to": "framework/react/reference/index"
+            },
+            {
+              "label": "Функции / useStore",
+              "to": "framework/react/reference/functions/usestore"
+            },
+            {
+              "label": "Функции / shallow",
+              "to": "framework/react/reference/functions/shallow"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "Справочник Vue",
+              "to": "framework/vue/reference/index"
+            },
+            {
+              "label": "Функции / useStore",
+              "to": "framework/vue/reference/functions/usestore"
+            },
+            {
+              "label": "Функции / shallow",
+              "to": "framework/vue/reference/functions/shallow"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "Справочник Solid",
+              "to": "framework/solid/reference/index"
+            },
+            {
+              "label": "Функции / useStore",
+              "to": "framework/solid/reference/functions/usestore"
+            }
+          ]
+        },
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "Справочник Angular",
+              "to": "framework/angular/reference/index"
+            },
+            {
+              "label": "Функции / injectStore",
+              "to": "framework/angular/reference/functions/functionsinjectStore"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "Справочник Svelte",
+              "to": "framework/svelte/reference/index"
+            },
+            {
+              "label": "Функции / useStore",
+              "to": "framework/svelte/reference/functions/usestore"
+            },
+            {
+              "label": "Функции / shallow",
+              "to": "framework/svelte/reference/functions/shallow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Примеры",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "Простой пример",
+              "to": "framework/react/examples/simple"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "Простой пример",
+              "to": "framework/vue/examples/simple"
+            }
+          ]
+        },
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "Простой пример",
+              "to": "framework/angular/examples/simple"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "Простой пример",
+              "to": "framework/svelte/examples/simple"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "Простой пример",
+              "to": "framework/solid/examples/simple"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
